@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record id="group_merchandiser_id" model="res.groups">
+            <field name="name">Merchandiser</field>
+            <field name="comment">The user will have access for Merchandiser rights</field>
+        </record>
+
+        <record id="group_management" model="res.groups">
+            <field name="name">Management</field>
+            <field name="comment">The user will have access for Management rights.</field>
+        </record>
+        <record id="group_yarn_procurement" model="res.groups">
+            <field name="name">Yarn Procurement</field>
+            <field name="comment">The user will have access for Yarn Procurement rights.</field>
+        </record>
+        <record id="group_lab" model="res.groups">
+            <field name="name">LAB</field>
+            <field name="comment">The user will have access for LAB rights.</field>
+        </record>
+
+    </data>
+</odoo>
